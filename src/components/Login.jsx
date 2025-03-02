@@ -9,11 +9,12 @@ const initialValues = {
     password:"",
 };
 const errorMessages =  {
-    ad:"En az 3 karakter giriniz.",
-    soyad:"En az 3 karakter giriniz.",
-    email:"Geçerli bir e-mail adresi giriniz.",
-    password:"En az 10 karakter içermelidir.",
+  ad:"En az 3 karakter giriniz.",
+  soyad:"En az 3 karakter giriniz.",
+  email:"Geçerli bir e-mail adresi giriniz.",
+  password:"En az 10 karakter içermelidir.",
 };
+
 export default function Register(){
     const [formData,setFormData] = useState(initialValues);
     const [errors,setErros] = useState({   ad:"",
